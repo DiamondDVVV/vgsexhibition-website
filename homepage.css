@@ -1,0 +1,189 @@
+body{
+background-color: #683404;
+}
+.table1{
+background-image: url(background.mov);
+background-color: #f8e4d4;
+text-align: center;
+width: 80%;
+border: 1;
+align-content: center;
+margin: 0 auto;
+border-radius: 20px;
+}
+.design{
+ margin: 0 auto;
+ font-family:'Brush Script MT'cursive ;
+font-size: 30px;
+color: white;
+font-weight: bolder;
+background-color: #683404 ;
+border-radius: 50px;
+}
+.upperboxes{
+margin: 0 auto;
+font-family:'Brush Script MT', cursive ;
+font-size: 30px;
+color: white;
+font-weight: bolder;
+background-color:#683404 ;
+border-radius: 50px;
+transition: color 0.3s ease; 
+color: white;
+}
+.text{
+ margin: 0 auto;
+ font-family: 'Brush Script MT', cursive;
+ font-size: 30px;
+ color: #904404;
+ font-weight: bolder;
+ transition: transform 0.3s ease-in-out;
+ text-align: center;
+}
+.href{
+ margin: 0 auto;
+ font-family: 'Brush Script MT', cursive;
+ font-size: 70px;
+ color: black;
+ font-weight: bolder;
+transition: color 0.3s
+}
+.heading{
+ margin: 0 auto;
+ font-family: 'Brush Script MT', cursive;
+ font-size: 140px;
+ color: #904404;
+ font-weight: bolder;
+ transition: transform 0.3s ease-in-out;
+}
+.imagerotate{
+ transition: transform 0.3s ease-in-out;
+}
+.tablecollapse{
+width: 80%;
+margin: 0 auto;
+border: 0;
+border-collapse: collapse;
+border-radius: 3px;
+background-color: #683404;
+}
+.collpase {
+font-weight: bolder;
+font-size:1550px;
+font-family: 'Trebuchet MS', sans-serif;
+color: #683404;
+margin: 0 auto;
+padding: 20%;
+}
+
+.steps {
+text-align: center;
+transition: transform 0.3s ease-in-out;
+
+}
+.text1{
+ margin: 0 auto;
+ font-family: 'Brush Script MT', cursive;
+ font-size: 15px;
+ color: #904404;
+ font-weight: bolder;
+ transition: transform 0.3s ease-in-out;
+ text-align: center;
+ width: 33%;
+}
+.table2{
+width: 80%;
+text-align: center;
+margin: 0 auto;
+border: 0;
+border-collapse: collapse;
+border-radius: 3px;
+background-color: #f8e4d4 ;
+}
+
+.onlyoneheading{
+font-family: 'Brush Script MT', cursive;
+font-size: 70px;
+color: #904404;
+font-weight: bolder;"
+margin: 0 auto;
+text-align: center;
+text-align: center;
+}
+.tablex1{
+ width:80%;
+ margin: 	0 auto;
+ border: 3;
+ border-collapse:collapse;
+ border-radius: 3px;
+ background-color: #f8e4d4;
+ border-color: #904404;
+ boder
+}
+.tablew{
+width: 	80%;
+margin: 	0 auto	;
+border: 	0;
+border-collapse: collapse	;
+border-radius: 	3px;
+background-color:  #f8e4d4	;
+}
+.td1{
+font-weight: bolder;
+font-size:150px;
+font-family: 'Trebuchet MS', sans-serif;
+color: #683404;
+margin: 	0 auto	;
+text-align: center;
+}
+.homes{
+font-weight: bolder;
+font-size:30px;
+font-family: 'Trebuchet MS', sans-serif;
+ color: #683404;
+width:50%;
+margin: 0 auto	;
+text-align: center;
+}
+.p{
+margin: 0 auto	;
+font-family: 'Brush Script MT', cursive;
+font-size: 30px;
+color: #904404;font-weight: bolder;"
+text-align: center;
+}
+.tablex2
+{
+width: 	80%;
+
+border: 0;
+border-collapse: collapse;
+ border-radius: 3px;
+ background-color: #683404;
+ margin:0 auto	;
+}
+.eve{
+font-weight: bolder;
+font-size:50px;
+font-family: 'Trebuchet MS', sans-serif;
+color: #683404;
+margin: 	0 auto	;
+}
+.eve2{
+font-weight: bolder;font-size:130px;font-family: 'Trebuchet MS', sans-serif;color: #683404;margin: 	0 auto	;
+text-align: center;
+}
+.hic{
+transition: color 0.3s ease; color: orange;" 
+}
+
+.table4{
+background-image: url(background.mov);
+background-color: #f8e4d4;
+text-align: center;
+width: 80%;
+border: 1;
+align-content: center;
+margin: 0 auto;
+border-radius: 200px;
+}

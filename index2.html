@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultimate Professional Design</title>
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(45deg, #00bcd4, #ff4081); color: #fff; margin: 0; padding: 0; overflow-x: hidden;">
+
+    <!-- Table Container -->
+    <table style="width: 80%; margin: 50px auto; border-radius: 15px; border-collapse: collapse; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1); background: #ffffff; transform: translateY(0); animation: fadeIn 1.5s ease-in-out;">
+        
+        <!-- Table Header -->
+        <tr style="background: linear-gradient(90deg, #03a9f4, #00bcd4); color: white; text-align: center; font-size: 18px; text-transform: uppercase; font-weight: bold;">
+            <td style="padding: 25px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;" 
+                onmouseover="this.style.backgroundColor='#00bcd4'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)';"><a href="index2.html">HOME</a></td>
+            <td style="padding: 25px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;" 
+                onmouseover="this.style.backgroundColor='#00bcd4'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)';"><a href="aboutpage.html">ABOUT</a></td>
+            <td style="padding: 25px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;" 
+                onmouseover="this.style.backgroundColor='#00bcd4'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)';"><a href="migration.html">MIGRATION</a></td>
+            <td style="padding: 25px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;" 
+                onmouseover="this.style.backgroundColor='#00bcd4'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)';"><a href="LokSabha.html">LOK SABHA</a></td>
+            <td style="padding: 25px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;" 
+                onmouseover="this.style.backgroundColor='#00bcd4'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)';"><a href="RajyaSabha.html">RAJYA SABHA</a></td>
+            <td style="padding: 25px; cursor: pointer; transition: background-color 0.3s, transform 0.3s;" 
+                onmouseover="this.style.backgroundColor='#00bcd4'; this.style.transform='scale(1.05)';" 
+                onmouseout="this.style.backgroundColor=''; this.style.transform='scale(1)';"><a href="Contract.html">CONTACT</a></td>
+        </tr>
+
+        <!-- Row 1: Migration and Population -->
+        <tr style="background-color: #f3f4f6; color: #333; border-bottom: 1px solid #ddd; transition: background-color 0.3s ease;">
+            <td colspan="3" style="padding: 35px; font-size: 18px; line-height: 1.6; text-align: left; border-right: 1px solid #ddd; transition: transform 0.3s ease;">
+                <h2 style="color: #03a9f4; font-size: 28px; font-weight: bold; text-transform: capitalize; transition: transform 0.3s ease;">MIGRATION</h2>
+                <p><strong>MIGRATION:</strong> The movement of a person or people from one country, locality, or place of residence to settle in another. It's a process that impacts many aspects of life.</p>
+                <div style="text-align: center; margin-top: 20px;">
+                    <img src="migr (1).png" alt="Migration Graph" style="width: 50%; max-width: 400px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.4s ease;" 
+                         onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+                </div>
+            </td>
+            <td colspan="3" style="padding: 35px; font-size: 18px; line-height: 1.6; text-align: left; transition: transform 0.3s ease;">
+                <h2 style="color: #03a9f4; font-size: 28px; font-weight: bold; text-transform: capitalize; transition: transform 0.3s ease;">POPULATION</h2>
+                <p><strong>POPULATION:</strong> The entire number of people living in a particular area or region. Population changes are key indicators of economic and social health.</p>
+            </td>
+        </tr>
+
+        <!-- Row 2: Death Rate and Image -->
+        <tr style="background-color: #ffffff; color: #333; border-bottom: 1px solid #ddd; transition: background-color 0.3s ease;">
+            <td colspan="4" style="padding: 35px; font-size: 18px; line-height: 1.6; text-align: left; border-right: 1px solid #ddd;">
+                <h2 style="color: #03a9f4; font-size: 28px; font-weight: bold;">DEATH RATE</h2>
+                <p><strong>DEATH RATE:</strong> A measure of the number of deaths in a particular area during a given period, usually expressed per 1,000 people per year.</p>
+            </td>
+            <td colspan="3" style="padding: 35px; text-align: center;">
+                <img src="deat.png" alt="Death Rate Graph" style="width: 100%; max-width: 500px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); transition: transform 0.4s ease;" 
+                     onmouseover="this.style.transform='scale(1.1)';" onmouseout="this.style.transform='scale(1)';">
+            </td>
+        </tr>
+        
+    </table>
+
+    <!-- Interactive Animations -->
+    <script>
+        // Fade-in effect on page load
+        window.onload = function() {
+            var table = document.querySelector('table');
+            table.style.opacity = 0;
+            table.style.transition = 'opacity 1.5s ease-in-out';
+            table.style.opacity = 1;
+        };
+    </script>
+
+    <!-- Background Animation for Fun -->
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.1;">
+        <svg width="200" height="200" style="position: absolute; animation: rotateAnimation 10s linear infinite;">
+            <circle cx="100" cy="100" r="80" stroke="#03a9f4" stroke-width="4" fill="none" />
+        </svg>
+    </div>
+
+    <style>
+        /* Animations for Smooth Effects */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(30px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Background circle rotation animation */
+        @keyframes rotateAnimation {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+
+</body>
+</html>

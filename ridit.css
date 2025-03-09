@@ -1,0 +1,82 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.tablemain {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background: #904404;
+}
+
+.color {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.color a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+.color:hover {
+    background: #703303;
+    color: white;
+}
+
+/* Main Content */
+.heading {
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    background: #fff;
+}
+
+/* About Section */
+td[colspan="2"] {
+    background: white;
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image Gallery */
+.image {
+    text-align: center;
+    padding: 20px;
+}
+
+.image img {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image img:hover {
+    transform: scale(1.05); /* Reduced scale to avoid layout shift */
+}
+
+/* Fix for Heading Hover Effect */
+.heading {
+    transition: transform 0.3s ease-in-out;
+    display: inline-block;
+    margin: auto;
+}
+
+.heading:hover {
+    transform: scale(1.05); /* Smooth hover effect */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Hover Text</title>
+  <style>
+    /* Style for the hover text box */
+    #hover-box {
+      display: none;
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      padding: 5px;
+      margin-top: 5px;
+      width: 200px;
+    }
+  </style>  
+</head>
+<body>
+  <p>
+    Hover over this <span id="hover-text" style="color: blue; cursor: pointer;">text</span>.
+  </p>
+
+  <!-- The text box -->
+  <div id="hover-box">This is the additional information!</div>
+
+  <script>
+    const hoverText = document.getElementById("hover-text");
+    const hoverBox = document.getElementById("hover-box");
+
+    hoverText.onmouseover = function () {
+      hoverBox.style.display = "block";
+    };
+
+    hoverText.onmouseout = function () {
+      hoverBox.style.display = "none";
+    };
+  </script>
+</body>
+</html>

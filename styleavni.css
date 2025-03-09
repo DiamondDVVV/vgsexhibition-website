@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.firsttable{
+    padding: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: 1   ;
+    width: 80%;
+}
+
+.topside {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+}
+
+.upside {
+    background-color: #004d40;
+   
+}
